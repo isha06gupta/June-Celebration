@@ -28,8 +28,8 @@ While building this, I explored:
 
 ## 🚀 Live Demo
 
-Check it out here 👉 [Live Site](https://yourusername.github.io/your-repo-name)  
-View the DEV Post 👉 [DEV Article](https://dev.to/your-post-link)
+Check it out here 👉 [Live Site](https://june-celebrations-isha.netlify.app/)  
+View the DEV Post 👉 [DEV Article](https://dev.to/isha_gupta_8852e036a256f6/frontend-challenge-joyful-june-in-html-css-js-40d9)
 
 ## 📄 License
 
