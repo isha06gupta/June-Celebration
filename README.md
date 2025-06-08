@@ -2,7 +2,7 @@
 
 This is my submission for the [DEV Frontend Challenge - June Celebrations, CSS Art](https://dev.to/challenges/frontend-2025-06-04). It showcases animated particles, shapes, and vibrant gradients made with pure HTML and CSS (with a touch of JS for interactivity).
 
-![Project Screenshot]( Screenshot 2025-06-08 205514.png ) 
+Project Screenshot in the files uploaded.
 
 ## 🌟 Features
 
