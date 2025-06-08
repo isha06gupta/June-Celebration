@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>June Celebrations</title>
+    <meta name="description" content="Celebrate the amazing diversity of June! Discover unique June holidays, fun facts, trivia, and more." />
+    <meta name="keywords" content="June, celebrations, holidays, trivia, fun facts, quiz, calendar" />
+    <meta property="og:title" content="June Celebrations - Fun Facts, Trivia & Holidays" />
+    <meta property="og:description" content="Celebrate June with unique holidays, fun facts, and trivia games!" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://your-site-url.com/" />
+    <meta property="og:image" content="https://your-site-url.com/preview.jpg" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="June Celebrations - Fun Facts & Trivia" />
+    <meta name="twitter:description" content="Celebrate June with unique holidays, fun facts, and trivia games!" />
+    <meta name="twitter:image" content="https://your-site-url.com/preview.jpg" />
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "June Celebrations",
+      "url": "https://your-site-url.com/",
+      "description": "Discover and celebrate unique June holidays! Fun facts, trivia, and more."
+    }
+    </script>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="background-container">
+            <div class="floating-particle particle-1"><div class="particle-inner particle-inner-1"></div></div>
+            <div class="floating-particle particle-2"><div class="particle-inner particle-inner-2"></div></div>
+            <div class="floating-particle particle-3"><div class="particle-inner particle-inner-3"></div></div>
+            <div class="floating-particle particle-4"><div class="particle-inner particle-inner-4"></div></div>
+            <div class="floating-elements"></div>
+        </div>
+
+        <section class="hero-section">
+            <div class="gradient-overlay"><div class="gradient-inner"></div></div>
+            <div class="geometric-patterns">
+                <div class="geo-shape geo-square"></div>
+                <div class="geo-shape geo-circle"></div>
+                <div class="geo-shape geo-triangle"></div>
+            </div>
+            <div class="hero-content">
+                <div class="hero-text-container">
+                    <h1 class="hero-title">
+                        <span class="title-text">June Celebrations!!</span>
+                        <div class="title-shadow"></div>
+                    </h1>
+                    <div class="hero-icons">
+                        <i data-lucide="star" class="hero-icon icon-star"></i>
+                        <i data-lucide="rainbow" class="hero-icon icon-rainbow"></i>
+                        <i data-lucide="sparkles" class="hero-icon icon-sparkles"></i>
+                    </div>
+                </div>
+                <p class="hero-description">
+                    🎉 June isn't just a month, it's a masterpiece of mischief and meaning! Where else can you celebrate Pride flags 
+                    AND nail polish in the same breath? From heartfelt Father's Day hugs to the gloriously ridiculous National Donut Day - 
+                    June serves up culture, community, and chaos in equal measure! 🌈
+                </p>
+                <div class="hero-warning">
+                    ✨ Warning: Excessive joy and random celebrations ahead - proceed with confetti! ✨
+                </div>
+            </div>
+        </section>
+
+        <section class="celebrations-container">
+            <h2 class="celebrations-title">
+                <span class="title-text">🎊 June's Amazing Celebrations 🎊</span>
+                <div class="title-underline"></div>
+            </h2>
+            <div class="celebrations-grid" id="celebrationsGrid"></div>
+        </section>
+ <!-- Fun Fact Section -->
+        <section class="fun-fact-section">
+          <button id="randomFunFactBtn" type="button">Show a Fun Fact!</button>
+          <div id="funFactDisplay"></div>
+        </section>
+
+        <!-- Trivia Quiz Section -->
+        <section class="trivia-section">
+          <h3>June Trivia Quiz</h3>
+          <div id="triviaQuestion"></div>
+          <div id="triviaOptions"></div>
+          <div id="triviaResult"></div>
+          <button id="nextTriviaBtn" style="display:none;">Next Question</button>
+        </section>
+
+        <section class="cta-section">
+            <div class="cta-background">
+                <div class="cta-particle cta-particle-1"><div class="cta-particle-inner cta-particle-inner-1"></div></div>
+                <div class="cta-particle cta-particle-2"><div class="cta-particle-inner cta-particle-inner-2"></div></div>
+                <div class="cta-particle cta-particle-3"><div class="cta-particle-inner cta-particle-inner-3"></div></div>
+                <div class="cta-geo-shape cta-geo-triangle"></div>
+                <div class="cta-geo-shape cta-geo-diamond"></div>
+            </div>
+            
+            <div class="cta-content">
+                <div class="cta-text-container">
+                    <h2 class="cta-title">
+                        <span class="cta-title-text">🎨 Share Your June Celebration Art! 🎨</span>
+                        <div class="cta-title-glow"></div>
+                    </h2>
+                    <div class="cta-icons">
+                        <i data-lucide="music" class="cta-icon"></i>
+                        <i data-lucide="heart" class="cta-icon"></i>
+                        <i data-lucide="star" class="cta-icon"></i>
+                    </div>
+                </div>
+                <p class="cta-description">
+                    Whether you're painting Pride flags with rainbow sprinkles, crafting Father's Day cards with glitter explosions, 
+                    honoring Juneteenth with powerful brushstrokes, or creating a shrine to National Donut Day (because priorities!) - 
+                    we're here for ALL of it! Show us how June sparks your creative genius! 🎭
+                </p>
+                <div class="cta-footer">
+                    🌟 June: Where serious meets silly, and art meets awesome! Let's paint this month legendary! 🌟
+                </div>
+            </div>
+        </section>
+
+        <footer class="footer-section">
+            <div class="footer-background">
+                <div class="footer-particle footer-particle-1"></div>
+                <div class="footer-particle footer-particle-2"></div>
+            </div>
+            <div class="footer-content">
+                <p class="footer-text">
+                    🎉 Created with love for the June Celebrations Hackathon  By Isha Gupta🎉
+                </p>
+                <div class="footer-icons">
+                    <i data-lucide="sparkles" class="footer-icon"></i>
+                    <i data-lucide="heart" class="footer-icon"></i>
+                    <i data-lucide="sparkles" class="footer-icon"></i>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <!-- Celebration Details Modal -->
+    <div id="celebrationModal" class="modal" style="display:none;">
+      <div class="modal-backdrop"></div>
+      <div class="modal-glow"></div>
+      <div class="modal-content" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+        <button class="modal-close" id="modalCloseBtn" aria-label="Close">&times;</button>
+        <div class="modal-body">
+          <div class="modal-header">
+            <span class="modal-emoji" id="modalEmoji"></span>
+            <h2 class="modal-title" id="modalTitle"></h2>
+            <span class="modal-date" id="modalDate"></span>
+          </div>
+          <div class="modal-section">
+            <h3>Description</h3>
+            <p id="modalDescription"></p>
+          </div>
+          <div class="modal-section">
+            <h3>How to Celebrate</h3>
+            <p id="modalHowTo"></p>
+          </div>
+          <div class="modal-section">
+            <h3>Fun Fact</h3>
+            <p id="modalFunFact"></p>
+          </div>
+          <div class="modal-section" id="modalRelatedSection" style="display: none;">
+            <h3>Related Celebrations</h3>
+            <ul id="modalRelated"></ul>
+          </div>
+          <div class="modal-section modal-share">
+            <h3>Share</h3>
+            <button class="share-btn" id="shareCopy">Copy Link</button>
+            <a class="share-btn" id="shareTwitter" target="_blank" rel="noopener">Twitter</a>
+            <a class="share-btn" id="shareWhatsApp" target="_blank" rel="noopener">WhatsApp</a>
+          </div>
+        </div>
+      </div>
+    </div>
+   
+
+    <script src="script.js"></script>
+</body>
+</html>
